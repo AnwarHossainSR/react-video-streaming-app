@@ -1,5 +1,6 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import styled from 'styled-components';
+import Menu from './components/Menu';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 
@@ -19,6 +20,7 @@ function App() {
   return (
     <Container>
       <BrowserRouter>
+        <Menu />
         <Main>
           <Navbar />
           <Wrapper>
