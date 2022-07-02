@@ -1,11 +1,11 @@
-import React from 'react';
-import styled from 'styled-components';
-import ThumbUpOutlinedIcon from '@mui/icons-material/ThumbUpOutlined';
-import ThumbDownOffAltOutlinedIcon from '@mui/icons-material/ThumbDownOffAltOutlined';
-import ReplyOutlinedIcon from '@mui/icons-material/ReplyOutlined';
 import AddTaskOutlinedIcon from '@mui/icons-material/AddTaskOutlined';
+import ReplyOutlinedIcon from '@mui/icons-material/ReplyOutlined';
+import ThumbDownOffAltOutlinedIcon from '@mui/icons-material/ThumbDownOffAltOutlined';
+import ThumbUpOutlinedIcon from '@mui/icons-material/ThumbUpOutlined';
+import styled from 'styled-components';
 //import Comments from '../components/Comments';
 import Card from '../components/Card';
+import Comments from '../components/Comments';
 import developmentKit from '../img/development-kit.png';
 const Container = styled.div`
   display: flex;
@@ -111,12 +111,12 @@ const Video = () => {
         <VideoWrapper>
           <iframe
             width='100%'
-            height='360'
-            src='https://www.youtube.com/embed/k3Vfj-e1Ma4'
+            height='315'
+            src='https://www.youtube.com/embed/uY5qugbnVGU'
             title='YouTube video player'
             frameborder='0'
             allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
-            allowFullScreen='allowFullScreen'
+            allowfullscreen
           ></iframe>
         </VideoWrapper>
         <Title>Test Video</Title>
@@ -155,7 +155,7 @@ const Video = () => {
           <Subscribe>SUBSCRIBE</Subscribe>
         </Channel>
         <Hr />
-        {/* <Comments /> */}
+        <Comments />
       </Content>
       <Recommendation>
         <Card type='sm' />
