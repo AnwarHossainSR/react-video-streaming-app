@@ -38,10 +38,6 @@ const Logo = styled.div`
   margin-bottom: 25px;
 `;
 
-const Img = styled.img`
-  height: 25px;
-`;
-
 const Item = styled.div`
   display: flex;
   align-items: center;
