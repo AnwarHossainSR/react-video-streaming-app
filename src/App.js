@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import Menu from './components/Menu';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
+import SignIn from './pages/SignIn';
 
 const Container = styled.div`
   display: flex;
@@ -27,6 +28,7 @@ function App() {
             <Routes>
               <Route path='/'>
                 <Route index element={<Home />} />
+                <Route path='signin' element={<SignIn />} />
               </Route>
             </Routes>
           </Wrapper>
