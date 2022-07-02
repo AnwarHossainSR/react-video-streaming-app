@@ -82,7 +82,7 @@ const Menu = ({ darkMode, setDarkMode }) => {
         <Link to='/' style={{ textDecoration: 'none', color: 'inherit' }}>
           <Logo>
             <YouTubeIcon sx={{ color: 'error.main' }} />
-            ITube
+            ATube
           </Logo>
         </Link>
         <Item>
