@@ -1,5 +1,5 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from "react";
+import styled from "styled-components";
 
 const Container = styled.div`
   display: flex;
@@ -69,13 +69,13 @@ const SignIn = () => {
       <Wrapper>
         <Title>Sign in</Title>
         <SubTitle>to continue to LamaTube</SubTitle>
-        <Input placeholder='username' />
-        <Input type='password' placeholder='password' />
+        <Input placeholder="username" />
+        <Input type="password" placeholder="password" />
         <Button>Sign in</Button>
         <Title>or</Title>
-        <Input placeholder='username' />
-        <Input placeholder='email' />
-        <Input type='password' placeholder='password' />
+        <Input placeholder="username" />
+        <Input placeholder="email" />
+        <Input type="password" placeholder="password" />
         <Button>Sign up</Button>
       </Wrapper>
       <More>

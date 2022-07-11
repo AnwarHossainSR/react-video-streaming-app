@@ -1,7 +1,7 @@
-import React from 'react';
-import styled from 'styled-components';
-import Comment from './Comment';
-import developmentKit from '../img/development-kit.png';
+import React from "react";
+import styled from "styled-components";
+import Comment from "./Comment";
+import developmentKit from "../img/development-kit.png";
 const Container = styled.div``;
 
 const NewComment = styled.div`
@@ -31,7 +31,7 @@ const Comments = () => {
     <Container>
       <NewComment>
         <Avatar src={developmentKit} />
-        <Input placeholder='Add a comment...' />
+        <Input placeholder="Add a comment..." />
       </NewComment>
       <Comment />
       <Comment />

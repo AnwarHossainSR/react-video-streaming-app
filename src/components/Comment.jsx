@@ -1,5 +1,5 @@
-import styled from 'styled-components';
-import developmentKit from '../img/development-kit.png';
+import styled from "styled-components";
+import developmentKit from "../img/development-kit.png";
 
 const Container = styled.div`
   display: flex;

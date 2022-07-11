@@ -1,22 +1,22 @@
-import AccountCircleOutlinedIcon from '@mui/icons-material/AccountCircleOutlined';
-import ArticleOutlinedIcon from '@mui/icons-material/ArticleOutlined';
-import ExploreOutlinedIcon from '@mui/icons-material/ExploreOutlined';
-import FlagOutlinedIcon from '@mui/icons-material/FlagOutlined';
-import HelpOutlineOutlinedIcon from '@mui/icons-material/HelpOutlineOutlined';
-import HistoryOutlinedIcon from '@mui/icons-material/HistoryOutlined';
-import HomeIcon from '@mui/icons-material/Home';
-import LibraryMusicOutlinedIcon from '@mui/icons-material/LibraryMusicOutlined';
-import LiveTvOutlinedIcon from '@mui/icons-material/LiveTvOutlined';
-import MovieOutlinedIcon from '@mui/icons-material/MovieOutlined';
-import SettingsBrightnessOutlinedIcon from '@mui/icons-material/SettingsBrightnessOutlined';
-import SettingsOutlinedIcon from '@mui/icons-material/SettingsOutlined';
-import SportsBasketballOutlinedIcon from '@mui/icons-material/SportsBasketballOutlined';
-import SportsEsportsOutlinedIcon from '@mui/icons-material/SportsEsportsOutlined';
-import SubscriptionsOutlinedIcon from '@mui/icons-material/SubscriptionsOutlined';
-import VideoLibraryOutlinedIcon from '@mui/icons-material/VideoLibraryOutlined';
-import YouTubeIcon from '@mui/icons-material/YouTube';
-import { Link } from 'react-router-dom';
-import styled from 'styled-components';
+import AccountCircleOutlinedIcon from "@mui/icons-material/AccountCircleOutlined";
+import ArticleOutlinedIcon from "@mui/icons-material/ArticleOutlined";
+import ExploreOutlinedIcon from "@mui/icons-material/ExploreOutlined";
+import FlagOutlinedIcon from "@mui/icons-material/FlagOutlined";
+import HelpOutlineOutlinedIcon from "@mui/icons-material/HelpOutlineOutlined";
+import HistoryOutlinedIcon from "@mui/icons-material/HistoryOutlined";
+import HomeIcon from "@mui/icons-material/Home";
+import LibraryMusicOutlinedIcon from "@mui/icons-material/LibraryMusicOutlined";
+import LiveTvOutlinedIcon from "@mui/icons-material/LiveTvOutlined";
+import MovieOutlinedIcon from "@mui/icons-material/MovieOutlined";
+import SettingsBrightnessOutlinedIcon from "@mui/icons-material/SettingsBrightnessOutlined";
+import SettingsOutlinedIcon from "@mui/icons-material/SettingsOutlined";
+import SportsBasketballOutlinedIcon from "@mui/icons-material/SportsBasketballOutlined";
+import SportsEsportsOutlinedIcon from "@mui/icons-material/SportsEsportsOutlined";
+import SubscriptionsOutlinedIcon from "@mui/icons-material/SubscriptionsOutlined";
+import VideoLibraryOutlinedIcon from "@mui/icons-material/VideoLibraryOutlined";
+import YouTubeIcon from "@mui/icons-material/YouTube";
+import { Link } from "react-router-dom";
+import styled from "styled-components";
 const Container = styled.div`
   flex: 1;
   background-color: ${({ theme }) => theme.bgLighter};
@@ -79,9 +79,9 @@ const Menu = ({ darkMode, setDarkMode }) => {
   return (
     <Container>
       <Wrapper>
-        <Link to='/' style={{ textDecoration: 'none', color: 'inherit' }}>
+        <Link to="/" style={{ textDecoration: "none", color: "inherit" }}>
           <Logo>
-            <YouTubeIcon sx={{ color: 'error.main' }} />
+            <YouTubeIcon sx={{ color: "error.main" }} />
             ATube
           </Logo>
         </Link>
@@ -109,7 +109,7 @@ const Menu = ({ darkMode, setDarkMode }) => {
         <Hr />
         <Login>
           Sign in to like videos, comment, and subscribe.
-          <Link to='signin' style={{ textDecoration: 'none' }}>
+          <Link to="signin" style={{ textDecoration: "none" }}>
             <Button>
               <AccountCircleOutlinedIcon />
               SIGN IN
@@ -157,7 +157,7 @@ const Menu = ({ darkMode, setDarkMode }) => {
         </Item>
         <Item onClick={() => setDarkMode(!darkMode)}>
           <SettingsBrightnessOutlinedIcon />
-          {darkMode ? 'Light' : 'Dark'} Mode
+          {darkMode ? "Light" : "Dark"} Mode
         </Item>
       </Wrapper>
     </Container>

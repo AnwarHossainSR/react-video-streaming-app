@@ -1,12 +1,12 @@
-import AddTaskOutlinedIcon from '@mui/icons-material/AddTaskOutlined';
-import ReplyOutlinedIcon from '@mui/icons-material/ReplyOutlined';
-import ThumbDownOffAltOutlinedIcon from '@mui/icons-material/ThumbDownOffAltOutlined';
-import ThumbUpOutlinedIcon from '@mui/icons-material/ThumbUpOutlined';
-import styled from 'styled-components';
+import AddTaskOutlinedIcon from "@mui/icons-material/AddTaskOutlined";
+import ReplyOutlinedIcon from "@mui/icons-material/ReplyOutlined";
+import ThumbDownOffAltOutlinedIcon from "@mui/icons-material/ThumbDownOffAltOutlined";
+import ThumbUpOutlinedIcon from "@mui/icons-material/ThumbUpOutlined";
+import styled from "styled-components";
 //import Comments from '../components/Comments';
-import Card from '../components/Card';
-import Comments from '../components/Comments';
-import developmentKit from '../img/development-kit.png';
+import Card from "../components/Card";
+import Comments from "../components/Comments";
+import developmentKit from "../img/development-kit.png";
 const Container = styled.div`
   display: flex;
   gap: 24px;
@@ -110,12 +110,12 @@ const Video = () => {
       <Content>
         <VideoWrapper>
           <iframe
-            width='100%'
-            height='315'
-            src='https://www.youtube.com/embed/uY5qugbnVGU'
-            title='YouTube video player'
-            frameborder='0'
-            allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+            width="100%"
+            height="315"
+            src="https://www.youtube.com/embed/uY5qugbnVGU"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
           ></iframe>
         </VideoWrapper>
@@ -158,19 +158,19 @@ const Video = () => {
         <Comments />
       </Content>
       <Recommendation>
-        <Card type='sm' />
-        <Card type='sm' />
-        <Card type='sm' />
-        <Card type='sm' />
-        <Card type='sm' />
-        <Card type='sm' />
-        <Card type='sm' />
-        <Card type='sm' />
-        <Card type='sm' />
-        <Card type='sm' />
-        <Card type='sm' />
-        <Card type='sm' />
-        <Card type='sm' />
+        <Card type="sm" />
+        <Card type="sm" />
+        <Card type="sm" />
+        <Card type="sm" />
+        <Card type="sm" />
+        <Card type="sm" />
+        <Card type="sm" />
+        <Card type="sm" />
+        <Card type="sm" />
+        <Card type="sm" />
+        <Card type="sm" />
+        <Card type="sm" />
+        <Card type="sm" />
       </Recommendation>
     </Container>
   );
